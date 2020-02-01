@@ -21,4 +21,9 @@ def placecolors (size):
                 red = Random.randint (256)
                 green = Random.randint (256)
                 blue = 255
-        color [i][0] = 
+        color [i][0] = red
+        color [i][1] = green
+        color [i][2] = blue
+        f.write (red + " " + green + " " + blue)
+
+f = open ("pic.ppm", "v")
