@@ -1,3 +1,2 @@
-all: picmaker.c
-	gcc -o pmaker picmaker.c
-	./pmaker
+all: picmaker.py
+	python picmaker.py
