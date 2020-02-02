@@ -1,7 +1,7 @@
 import random
 f = open ("pic.ppm", "w")
 
-f.write ("P3 500 500 255")
+f.write ("P3 500 500 255 ")
 
 color = []
 
