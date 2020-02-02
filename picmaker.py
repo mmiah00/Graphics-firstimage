@@ -27,9 +27,9 @@ color = []
 
 def placecolors ():
     for i in range (500*500):
-        red = rand.randint (1,255)
-        green = rand.randint (1,255)
-        blue = rand.randint (1,255)
+        red = random.randint (1,255)
+        green = random.randint (1,255)
+        blue = random.randint (1,255)
         f.write (str (red) + " " + str (green) + " " + str (blue) + " ")
-        
+
 placecolors ()
