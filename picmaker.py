@@ -21,7 +21,7 @@ def placecolors ():
                 color = [255, 0, 0]
                 colors.append (color)
             else:
-                color = [100, 250, 90]
+                color = [0, 255, 0]
                 colors.append (color)
 
 def toFile ():
