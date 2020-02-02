@@ -15,16 +15,12 @@ color = []
 colors = []
 
 def placecolors ():
-    for y in range (500):
-        for x in range (500):
-            if (x > 200 and x < 300) and (y > 200 and y < 300):
-                colors.append ([255,0,0])
-            else:
-                colors.append ([0, 255,0])
+    for i in range (500*500):
+        f.write ("255 0 0 ")
 
-def toFile ():
-    for i in range (len (colors)):
-        f.write (str (colors[i][0]) + " " + str (colors[i][1]) + str (colors[i][2]) + " ")
+# def toFile ():
+#     for i in range (len (colors)):
+#         f.write (str (colors[i][0]) + " " + str (colors[i][1]) + str (colors[i][2]) + " ")
 
 placecolors ()
-toFile ()
+# toFile ()
