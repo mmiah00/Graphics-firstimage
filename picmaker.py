@@ -18,10 +18,7 @@ def placecolors ():
     for y in range (500):
         for x in range (500):
             if pow (y + 250, 2) - pow (x + 250, 2) == 1:
-                color = [255, 100, 34]
-                colors.append (color)
-            elif y % 4 == 0 and x % 4 == 0:
-                color = [0, 0, 255]
+                color = [255, 0, 0]
                 colors.append (color)
             else:
                 color = [100, 250, 90]
