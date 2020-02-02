@@ -17,7 +17,7 @@ colors = []
 def placecolors ():
     for i in range (500):
         for j in range (500):
-            if pow (i - 250, 2) - pow (j - 250, 2) < 2500:
+            if 50 * pow ((j - 250), 2) + 250 == i:
                 f.write ("255 0 0 ")
             else:
                 f.write ("0 0 0 ")
